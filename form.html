@@ -1,0 +1,13 @@
+<!-- ฟอร์มฝากเงิน -->
+<form method="POST" action="deposit.php">
+    <label for="deposit_amount">จำนวนเงินที่ฝาก:</label>
+    <input type="number" name="deposit_amount" min="1" required>
+    <button type="submit" name="deposit">ยืนยันการฝาก</button>
+</form>
+
+<!-- ฟอร์มถอนเงิน -->
+<form method="POST" action="withdraw.php">
+    <label for="withdraw_amount">จำนวนเงินที่ถอน:</label>
+    <input type="number" name="withdraw_amount" min="1" required>
+    <button type="submit" name="withdraw">ยืนยันการถอน</button>
+</form>
